@@ -266,6 +266,19 @@ ul {
     padding: 5px;
 }
 
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #888888;
+}
+
+
 
 @media (max-width: 768px) {
 
@@ -308,5 +321,9 @@ ul {
     .card {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 }
